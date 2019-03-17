@@ -1,0 +1,17 @@
+@import 'header';
+@import 'animation';
+@import 'download_btn';
+@import 'working';
+@import 'way';
+@import 'about_us';
+@import 'cooperation';
+@import 'footer';
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}

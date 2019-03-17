@@ -1,0 +1,23 @@
+{
+  "name": "Lesson11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "lodash": "^4.17.11",
+    "lodash._getnative": "^3.9.1",
+    "lodash._isiterateecall": "^3.0.9",
+    "lodash.isarray": "^4.0.0",
+    "lodash.keys": "^4.2.0"
+  }
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Globo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Karma:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="bg">
+            <!-- Nav bar width more then 768px -->
+
+            <nav id="menu_anchor" class="nav_bar animatable fadeInDown">
+                <ul>
+                    <a href="#road">
+                        <li>Маршрут</li>
+                    </a>
+                    <a href="">
+                        <li>Новини</li>
+                    </a>
+                    <a href="">
+                        <li></li>
+                    </a>
+                    <a href="#about">
+                        <li>Про нас</li>
+                    </a>
+                    <a href="#sup">
+                        <li>Підтримка</li>
+                    </a>
+                </ul>
+            </nav>
+
+
+            <!-- Nav bar for small size -->
+            <nav class="burger_menu">
+                <input type="checkbox" id="menu-toggle" />
+                <label id="trigger" for="menu-toggle"></label>
+                <label id="burger" for="menu-toggle"></label>
+                <ul id="menu">
+                    <li><a href="#road">Маршрут</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#sup">Підтримка</a></li>
+                </ul>
+            </nav>
+
+
+            <!-- Manin chapter -->
+
+            <p class="chapter animatable fadeInDown">Їзди з комфортом та вигідно </p>
+            <!-- Bus animation -->
+
+            <div class="bus animatable bounceInRight"></div>
+            <!-- download button -->
+
+            <div class="btn_dow animatable fadeInUp">
+                <div class="button">Завантажити</div>
+                <div class="system ios"><a href=""><img src="img/apple.png" alt=""><a></div>
+                <div class="system android"><a href=""><img src="img/android.png" alt=""></a></div>
+            </div>
+
+            <!-- SVG for button animation -->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                            result="goo" />
+                        <feBlend in="SourceGraphic" in2="goo" />
+                    </filter>
+                </defs>
+            </svg>
+
+        </div>
+    </header>
+    <!-- how we are working guide -->
+    <section>
+        <div class="working animatable fadeInDown">
+            <div class="first">
+                <div class="circle">
+                    <img src="img/download.png" alt="">
+                </div>
+                <p>Скачуй додаток на свій смартфон</p>
+            </div>
+            <div class="second">
+                <div class="circle">
+                    <img src="img/booking.png" alt="">
+                </div>
+                <p>Бронюй поїздку</p>
+            </div>
+            <div class="third">
+                <div class="circle">
+                    <img src="img/waiting.png" alt="">
+                </div>
+                <p>Очікуй зі всіми</p>
+            </div>
+            <div class="fourth">
+                <div class="circle">
+                    <img src="img/riding.png" alt="">
+                </div>
+                <p>Насолоджуйся поїздкою</p>
+            </div>
+        </div>
+    </section>
+    <!-- Our way  -->
+    <section>
+        <div class="way" id="road">
+            <h1> Наш маршрут:</h1>
+            <div class="map">
+                <div class="point">
+                    <img src="img/placeholder_black.png" alt="">
+                    <p>Вул.</p>
+                </div>
+                <div class="line"></div>
+                <div class="point">
+                    <img src="img/placeholder_white.png" alt="">
+                    <p>Вул.</p>
+                </div>
+                <div class="line"></div>
+                <div class="point">
+                    <img src="img/placeholder_black.png" alt="">
+                    <p>ЛНУ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aaout company -->
+    <section>
+        <div id="about" class="about_us">
+            <div class="left_block animatable bounceInLeft"></div>
+            <div class="right_block animatable bounceInRight">
+                <h1>ми класни</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. dit velit fugiat magni doloribus excepturi!
+                </p>
+                <h1>ми дуже класні </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitibus reprehenderit ad voluptatibus iure
+                    ducimus!</p>
+                <h1>ми дужу дуже класні </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas expedita nihil, maiores quaerat
+                    excepturi nemo labore quod laudantium autem voluptatem blanditiis atque corrupti debitis culpa
+                    magnam quos tempora eligendi laboriosam!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Cooperation -->
+    <section class="co">
+        <div class="coop">
+            <div class="img animatable fadeInDown"></div>
+            <p class=" animatable fadeInUp">Ми відкриті не лише для клієнтів, але і для співпраці. Надсилай свої
+                пропозицї на e-mail:
+                <a class="face-button"
+                    href="Mailto:maksym028@gmail.com?subject=Hi,%20what%20are%20you%20interesting?">globo@gmail.com</a>
+            </p>
+        </div>
+    </section>
+    <!-- Form for feed_back  -->
+    <section>
+        <div class="contact1">
+            <div class="container-contact1">
+                <div class="contact1-pic js-tilt" data-tilt>
+                    <img src="images/img-02.png" alt="IMG">
+                </div>
+
+                <form class="contact1-form validate-form">
+                    <span class="contact1-form-title">
+                        Залиш відгук
+                    </span>
+
+                    <div class="wrap-input1 validate-input" data-validate="Name is required">
+                        <input class="input1" type="text" name="name" placeholder="Ім'я">
+                        <span class="shadow-input1"></span>
+                    </div>
+
+                    <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <input class="input1" type="text" name="email" placeholder="E-mail">
+                        <span class="shadow-input1"></span>
+                    </div>
+
+
+
+                    <div class="wrap-input1 validate-input" data-validate="Message is required">
+                        <textarea class="input1" name="message" placeholder="Повідомлення"></textarea>
+                        <span class="shadow-input1"></span>
+                    </div>
+
+                    <div class="container-contact1-form-btn">
+                        <button class="contact1-form-btn">
+                            <span>
+                                Send Email
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer contact with us and soc  -->
+    <footer id="sup">
+        <p>Звенутись у підтримку, написати побажання та скарги.</p>
+        <div class="arrow"></div>
+        <a class="push_button blue"
+            href="Mailto:maksym028@gmail.com?subject=Hi,%20what%20are%20you%20interesting?">Підтримка</a>
+        <div class="soc">
+            <a href=""><img src="img/instagram.png" alt=""></a>
+            <a href=""><img src="img/facebook.png" alt=""></a>
+            <a href=""><img src="img/google-plus.png" alt=""></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script>$('.js-tilt').tilt({ scale: 1.1 })</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</body>
+
+</html>

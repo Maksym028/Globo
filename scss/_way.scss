@@ -1,0 +1,38 @@
+.way{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(0, 168, 226);
+    h1{
+        font-family: 'Karma', serif;
+        text-align: center;
+        color: #fff;
+    }
+    .map{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .point{
+            width: 100px;
+            height: 100px;
+            img{
+                width: 50px;
+                height: 60px;
+            }
+        }
+        .line{
+            height: 1px;
+            background: #000;
+            width: 200px;
+        }
+        p{
+            font-family: 'Karma', serif;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
